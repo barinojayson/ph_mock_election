@@ -1,0 +1,262 @@
+/************************************************************************
+* Date			Modified By			Description							*
+* 07Jul16		Jayson Barino		Created CSS to style the election	*
+*									pages.								*
+*																		*
+*************************************************************************/
+
+/** Menu Styles -- Begin **/
+
+.menu_item{
+	background-color: #79b2e8;
+	width: 330px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 1.2px 1.2px 1.5px 1px #27496d; 
+	float: left; 
+	margin-top: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: none;
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-color: #1fb5f0;
+}
+
+/* .menu_item:hover{
+	cursor: pointer;
+	background-color: #69b3e0;
+	box-shadow: 1.2px 1.2px 1.5px 1px #27496d; 
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-color: #80b3ff;
+} */
+
+.menu_selected{
+	border-width: 0px 1px 1px 0px;
+	border-style: solid;
+	border-color: #e0dcce;
+	box-shadow: 1.2px 1.2px 1px 0px #27496d inset;
+	
+}
+
+.menu_icon{
+	float: left;
+	width: 50px;
+	height: 50px;
+	
+}
+
+.cast_vote{
+	background-image: url("../images/fingerprint.png");
+}
+
+.view_result{
+	background-image: url("../images/chart.png");
+}
+
+.menu_text{
+	float: left;
+	width: 100px;
+	line-height: 45px;
+	padding-left: 30px;
+	font-size: 19px;
+}
+
+.menu_container{
+	width: 908px;
+	height: 100px;
+	border: 1px solid #e8eaeb;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0); 
+	border-radius: 0px 0px 5px 5px;
+	background-color: #f2f2f0;
+	position:absolute;
+	}
+
+.menu_con2{
+	margin: auto;
+	width: 700px;
+}
+
+.menu_con2 a{
+	color: #001f4d;
+}
+
+/** Menu Styles -- End **/
+
+.clear{
+	clear: both;	
+}
+
+body{
+	background-color: #79b2e8;
+	font-family: Tahoma, Georgia, Serif;
+}
+
+.text_header{
+	font-size: 20px;
+}
+
+.main_container{
+	width: 900px;
+	margin-top: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	min-height: 200px;
+	border-radius: 2px 2px 0px 0px;
+	bottom: 0px;
+	padding: 5px;
+}
+
+.vote_position{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.vote_set{
+	
+	width: 850px;
+	margin: auto;
+	padding: 20px 0px;
+	border-bottom: 1px solid #e0dcce;
+}
+
+.vote_name{
+	height: 20px;
+	font-size: 16px;
+}
+
+.vote_party{
+	height: 15px;
+	font-size: 14px;
+	color: #001f4d;
+}
+
+.vote_cand_details{
+	float: left;
+	width: 80%;
+}
+
+.vote_radio{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.vote_radio input{
+	height: 20px;
+	width: 20px;
+}
+
+.vote_candidates{
+	width: 271px;
+	float: left;
+	padding: 5px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.vote_candidates:hover{
+	border: 1px solid #e0dcce;
+	cursor: pointer;
+}
+
+.vote_button{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.button{
+	width: 100%;
+	height: 60px;
+	background-color: #abcce0;
+	border: 1px solid #ededed;
+	border-radius: 20px 0px 20px 0px;
+	color: #27496d;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.button:hover{
+	cursor:pointer;
+	background-color: #69b3e0;
+}
+
+.footer{
+	margin-top: 20px;
+	border-top: 0.5px solid #ededed;
+	max-width: 100%;
+	padding: 10px;
+	border-shadow: 1.2px 0px 1.5px 1px #27496d inset; 
+	background-color: #232128;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	color: #e8eaeb;
+	font-size: 12px;
+}
+
+.footer_item{
+
+	float: left;
+	width: 30%;
+	height: 130px;
+}
+
+.footer_content a{
+	color: #e8eaeb;
+	text-decoration: none;
+}
+
+.footer_content a:hover{
+	color: #e8eaeb;
+	text-decoration: underline;
+}
+
+.footer_border{
+	float: left;
+	height: 150px;
+	border-right: 1px solid #696969;
+	margin-right: 5px;
+}
+
+.footer_item_header{
+	color: #e8eaeb;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bolder;
+}
+
+.vote_result_candidate{
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+
+.vote_result_bar{
+	height: 50px;
+	width: 500px;
+	border: 1px solid #e0dcce;
+	float: left;
+}
+
+.votes_earned{
+	height: 50px;
+	background-color: #c95151;
+	border: none;
+}
+
+.vote_result_figure{
+	float: left;
+	width: 100px;
+	padding-left: 5px;
+}
+
+.vote_result_graph{
+	margin-top: 5px;
+}
